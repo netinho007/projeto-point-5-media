@@ -1,0 +1,5 @@
+@extends('layouts.public')
+@section('title','Dúvidas frequentes · Point Carreiras')
+@section('content')
+<section class="content-hero"><div class="container"><span class="eyebrow">perguntas frequentes_</span><h1>Dúvidas sobre candidatura e portal.</h1></div></section><section class="public-section"><div class="container faq-list">@foreach([['Posso atualizar meu currículo?','Sim. No portal você pode substituir o currículo principal quando quiser.'],['Posso me candidatar a mais de uma vaga?','Sim. Cada vaga gera uma candidatura independente.'],['Posso enviar duas candidaturas para a mesma vaga?','Não. O sistema bloqueia candidaturas duplicadas.'],['Como acompanho o processo?','No portal, em Minhas candidaturas, você vê a linha do tempo e as etapas.'],['Posso retirar minha candidatura?','Sim, enquanto o processo ainda estiver ativo.'],['Minha foto entra na análise do currículo?','Não. A foto e características pessoais não são usadas na análise assistida.'],['Como falo com o RH?','Use a área Mensagens no portal.']] as [$q,$a])<details><summary>{{ $q }}</summary><p>{{ $a }}</p></details>@endforeach</div></section>
+@endsection
