@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 58" role="img" aria-labelledby="title">
+  <title id="title">Point Carreiras</title>
+  <text x="0" y="38" fill="#121212" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="38" font-weight="800">p</text>
+  <circle cx="43" cy="31" r="14" fill="#ed6098"/>
+  <circle cx="47" cy="27" r="14" fill="#6cabde"/>
+  <path d="M43 20 L54 27 L43 34 Z" fill="#ffffff"/>
+  <text x="63" y="38" fill="#121212" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="38" font-weight="800" letter-spacing="-2">int</text>
+  <text x="64" y="52" fill="#ed6098" font-family="Arial, sans-serif" font-size="10" font-weight="800" letter-spacing="2.5">TALENT</text>
+</svg>
